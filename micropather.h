@@ -36,7 +36,7 @@ distribution.
 */
 
 // This probably works to remove, but isn't currently tested in STL mode.
-#define GRINLIZ_NO_STL
+// #define GRINLIZ_NO_STL
 
 #ifdef GRINLIZ_NO_STL
 #	define MP_VECTOR micropather::MPVector
